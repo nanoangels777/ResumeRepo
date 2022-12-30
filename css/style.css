@@ -35,3 +35,94 @@ h2
 {
     margin-bottom: 18px;
 }
+
+/* Sidebar */
+
+.sidebar
+{
+    width: 370px;
+    background-color: #E0EBFE;
+}
+
+.myPhoto
+{
+    margin-top: 40px;
+}
+
+.contacts
+{
+    margin-left: 40px;
+    margin-top: 48px;
+}
+
+.hardSkills
+{
+    margin-left: 40px;
+    margin-top: 48px;
+}
+
+.softSkills
+{
+    margin-left: 40px;
+    margin-top: 48px;
+}
+
+.sidebarText
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #161D2A;
+    margin-bottom: 8px;
+}
+
+.contactsType
+{   
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #161D2A;
+    margin-right: 8px;
+}
+
+.contactsItem
+{
+    margin: 0;
+}
+
+.tel
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #161D2A;
+}
+
+.mail
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #2979FF;
+}
+
+.skillsList
+{
+    margin: 0;
+    padding: 0 0 0 16px;
+}
+
+.skillItem
+{
+    color: #6D9BF5;
+}
+
+.skillText
+{
+    color: #161D2A;
+}
