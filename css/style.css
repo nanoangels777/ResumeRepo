@@ -12,28 +12,151 @@ body
     background-color: #ffffff;
     width: 1200px;
     margin: 0 auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .mainContent
 {
-    padding: 88px;
+    padding: 88px 218px 88px 88px;
 }
 
 /* About Me */
-
-h2
+.aboutMe
 {
-    font-size: 35px;
-}
-
-.projectLinks
-{
-    background-color: yellow;
+    margin-bottom: 64px;
 }
 
 .myProfession
 {
-    margin-bottom: 18px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin: 0 0 18px 0;
+}
+
+.myName
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+    margin: 0 0 28px 0;
+}
+
+.myDescription
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    width: 525px;
+}
+
+/* Projects */
+.projectsContainer
+{
+    margin-bottom: 48px;
+}
+.mainContentTitle
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin: 0 0 8px 0;
+}
+
+.projectsList
+{
+    padding: 0 0 0 16px;
+    margin: 0;
+}
+
+.projectLinks
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000; 
+}
+
+.projectItemDescription
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.projectItemLink
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #005FFF;
+    margin-left: 14px;
+}
+
+/* WorkExperience */
+
+.experienceContainer
+{
+    margin-bottom: 44px;
+}
+
+.experiencePosition
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin: 0;
+}
+
+.experianceItem
+{
+    margin-bottom: 16px;
+}
+
+.experianceItemLink
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6D9BF5;
+    margin: 0;
+}
+
+.period
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin: 12px 0 8px 0;
+}
+
+.experienceDescription
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin: 0;
+    padding: 0 0 0 16px;
 }
 
 /* Sidebar */
@@ -47,6 +170,7 @@ h2
 .myPhoto
 {
     margin-top: 40px;
+    margin-left: 36px;
 }
 
 .contacts
